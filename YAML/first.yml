@@ -1,0 +1,44 @@
+# yaml is data serialization language 
+# configation is written in yaml for docker , kubernetes , ansible and many others
+
+# key value pair 
+key1 : "value"
+PORT : 4000
+
+
+# objects
+details:
+  name : "Rohit"
+  age : 19
+
+
+# list
+array:
+  - ar0 : 10
+  - ar1 : 20
+
+# list of objects
+microservices:
+  - app: user1
+    PORT: 3000
+    version: 4
+
+  - app : user2
+    PORT: 4000
+    version: 5
+
+# multiline strings
+multilinestring: |
+  this 
+  
+  is multi
+  line string
+
+# single line string 
+sigleline: > 
+  this is first string,
+  this is second, 
+
+  this is third
+
+# 
