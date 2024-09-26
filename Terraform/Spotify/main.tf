@@ -10,7 +10,7 @@ terraform {
 variable "api_key" {
   description = "API key for Spotify authentication"
   type        = string
-  default = "WU1_NEC2RDGGC55qPFKmiGMb-jEiCP-eVbXn6RiZuIt_VKLkl_DbGmZw0TEF86Pp"
+  default = "replace_with_your_key"
 }
 
 provider "spotify" {
