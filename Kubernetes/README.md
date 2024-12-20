@@ -29,6 +29,8 @@ Kubernetes is used to manage containerized applications in a clustered environme
 
 Kubernetes follows a client-server architecture and is composed of the following components:
 
+![Kubernetes Architecture](https://www.cncf.io/wp-content/uploads/2020/08/Kubernetes-architecture-diagram-1-1.png)  
+
 ### Master Node
 
 The master node is responsible for managing the Kubernetes cluster. It consists of several key components:
